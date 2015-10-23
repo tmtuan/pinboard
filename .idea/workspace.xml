@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aaa58e1e-b55a-4fd8-921c-a2d62eb474e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/index.html.haml" afterPath="$PROJECT_DIR$/app/views/pins/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pin.rb" afterPath="$PROJECT_DIR$/app/models/pin.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/show.html.haml" afterPath="$PROJECT_DIR$/app/views/pins/show.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pinboard.iws" />
@@ -29,16 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pins.coffee" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pins.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="edit.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,8 +53,8 @@
       <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5370986">
-              <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.45293465">
+              <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -106,20 +97,19 @@
       <file leaf-file-name="show.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.9230769">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <marker date="1444987555000" expanded="true" signature="0:873" placeholder="#pin_show.row" />
-                <marker date="1444987555000" expanded="true" signature="16:873" placeholder=".col-md-8.col-md-offset-2" />
-                <marker date="1444987555000" expanded="true" signature="46:873" placeholder=".panel.panel-default" />
-                <marker date="1444987555000" expanded="true" signature="73:143" placeholder=".panel-heading.pin_image" />
-                <marker date="1444987555000" expanded="true" signature="150:284" placeholder=".panel-body" />
-                <marker date="1444987555000" expanded="true" signature="291:873" placeholder=".panel-footer" />
-                <marker date="1444987555000" expanded="true" signature="313:873" placeholder=".row" />
-                <marker date="1444987555000" expanded="true" signature="328:412" placeholder=".col-md-6" />
-                <marker date="1444987555000" expanded="true" signature="423:873" placeholder=".col-md-6" />
-                <marker date="1444987555000" expanded="true" signature="445:873" placeholder=".btn-group.pull-right" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,14 +149,14 @@
         <option value="$PROJECT_DIR$/app/views/pins/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/pin.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/pins/show.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pins.coffee" />
         <option value="$PROJECT_DIR$/app/views/pins/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/pins/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/models/pin.rb" />
+        <option value="$PROJECT_DIR$/app/views/pins/show.html.haml" />
       </list>
     </option>
   </component>
@@ -718,14 +708,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20151016085945_acts_as_votable_migration.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -754,18 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <marker date="1444987555000" expanded="true" signature="0:873" placeholder="#pin_show.row" />
-            <marker date="1444987555000" expanded="true" signature="16:873" placeholder=".col-md-8.col-md-offset-2" />
-            <marker date="1444987555000" expanded="true" signature="46:873" placeholder=".panel.panel-default" />
-            <marker date="1444987555000" expanded="true" signature="73:143" placeholder=".panel-heading.pin_image" />
-            <marker date="1444987555000" expanded="true" signature="150:284" placeholder=".panel-body" />
-            <marker date="1444987555000" expanded="true" signature="291:873" placeholder=".panel-footer" />
-            <marker date="1444987555000" expanded="true" signature="313:873" placeholder=".row" />
-            <marker date="1444987555000" expanded="true" signature="328:412" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="423:873" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="445:873" placeholder=".btn-group.pull-right" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,18 +815,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <marker date="1444987555000" expanded="true" signature="0:873" placeholder="#pin_show.row" />
-            <marker date="1444987555000" expanded="true" signature="16:873" placeholder=".col-md-8.col-md-offset-2" />
-            <marker date="1444987555000" expanded="true" signature="46:873" placeholder=".panel.panel-default" />
-            <marker date="1444987555000" expanded="true" signature="73:143" placeholder=".panel-heading.pin_image" />
-            <marker date="1444987555000" expanded="true" signature="150:284" placeholder=".panel-body" />
-            <marker date="1444987555000" expanded="true" signature="291:873" placeholder=".panel-footer" />
-            <marker date="1444987555000" expanded="true" signature="313:873" placeholder=".row" />
-            <marker date="1444987555000" expanded="true" signature="328:412" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="423:873" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="445:873" placeholder=".btn-group.pull-right" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,18 +884,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <marker date="1444987555000" expanded="true" signature="0:873" placeholder="#pin_show.row" />
-            <marker date="1444987555000" expanded="true" signature="16:873" placeholder=".col-md-8.col-md-offset-2" />
-            <marker date="1444987555000" expanded="true" signature="46:873" placeholder=".panel.panel-default" />
-            <marker date="1444987555000" expanded="true" signature="73:143" placeholder=".panel-heading.pin_image" />
-            <marker date="1444987555000" expanded="true" signature="150:284" placeholder=".panel-body" />
-            <marker date="1444987555000" expanded="true" signature="291:873" placeholder=".panel-footer" />
-            <marker date="1444987555000" expanded="true" signature="313:873" placeholder=".row" />
-            <marker date="1444987555000" expanded="true" signature="328:412" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="423:873" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="445:873" placeholder=".btn-group.pull-right" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,33 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <marker date="1444987555000" expanded="true" signature="0:873" placeholder="#pin_show.row" />
-            <marker date="1444987555000" expanded="true" signature="16:873" placeholder=".col-md-8.col-md-offset-2" />
-            <marker date="1444987555000" expanded="true" signature="46:873" placeholder=".panel.panel-default" />
-            <marker date="1444987555000" expanded="true" signature="73:143" placeholder=".panel-heading.pin_image" />
-            <marker date="1444987555000" expanded="true" signature="150:284" placeholder=".panel-body" />
-            <marker date="1444987555000" expanded="true" signature="291:873" placeholder=".panel-footer" />
-            <marker date="1444987555000" expanded="true" signature="313:873" placeholder=".row" />
-            <marker date="1444987555000" expanded="true" signature="328:412" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="423:873" placeholder=".col-md-6" />
-            <marker date="1444987555000" expanded="true" signature="445:873" placeholder=".btn-group.pull-right" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1150,10 +1072,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9230769">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5370986">
-          <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.45293465">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
   .col-md-8.col-md-offset-2
     .panel.panel-default
       .panel-heading.pin_image
-        %p= image_tag @pin.image.url(:medium)
+        %p= link_to( image_tag(@pin.image.url(:medium)) , @pin.image.url )
       .panel-body
         %h1= @pin.title
         %p.description= @pin.description
