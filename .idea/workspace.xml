@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aaa58e1e-b55a-4fd8-921c-a2d62eb474e5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/pins/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/pins.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/pins.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/index.html.haml" afterPath="$PROJECT_DIR$/app/views/pins/index.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pinboard.iws" />
@@ -53,8 +52,8 @@
       <file leaf-file-name="index.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8461537">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state vertical-scroll-proportion="-6.576923">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -63,8 +62,8 @@
       <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29457363">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5370986">
+              <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -87,11 +86,9 @@
       <file leaf-file-name="new.html.haml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-2.1923077">
               <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <marker date="1444981658000" expanded="true" signature="0:81" placeholder=".col-md-6.col-md-offset-3" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +96,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-1.1153846">
               <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
               <folding />
             </state>
@@ -161,7 +158,6 @@
         <option value="$PROJECT_DIR$/app/views/users/profile.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pins/_form.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/pins/index.html.haml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/pin.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -169,6 +165,7 @@
         <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/pins.coffee" />
         <option value="$PROJECT_DIR$/app/views/pins/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/pins/index.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       </list>
     </option>
@@ -1094,24 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding>
-            <marker date="1444981658000" expanded="true" signature="0:81" placeholder=".col-md-6.col-md-offset-3" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1147,18 +1126,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pins/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1923077">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1153846">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8461537">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state vertical-scroll-proportion="-6.576923">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29457363">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5370986">
+          <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
           <folding />
         </state>
       </provider>
