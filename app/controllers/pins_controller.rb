@@ -1,8 +1,15 @@
 class PinsController < ApplicationController
   before_action :find_pin, only: [:show, :edit, :update, :destroy, :upvote]
-  
+
+
   def index
+
     @pins = Pin.all
+    @searchkey = ""
+    if params[:q] != nil
+      @searchkey = params[:q]
+      @pins = Pin.where('lower(title) = ?', @searchkey.downcase )
+    end
   end
 
   def new
@@ -52,4 +59,6 @@ class PinsController < ApplicationController
   def find_pin
     @pin = Pin.find(params[:id])
   end
+
+
 end

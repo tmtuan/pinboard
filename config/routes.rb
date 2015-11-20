@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'sign_up' => 'users#new', :as => 'sign_up'
   get 'user_profile' => 'users#profile', :as => 'user_profile'
 
-  root :to => 'users#new'
+  root :to => 'pins#index'
 
   resources :users
   resources :sessions
