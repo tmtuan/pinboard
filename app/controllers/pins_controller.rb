@@ -8,8 +8,8 @@ class PinsController < ApplicationController
     @searchkey = ""
     if params[:q] != nil
       @searchkey = params[:q]
-      @pins = Pin.where('lower(title) = ?', @searchkey.downcase )
-    end
+      @pins = Pin.where('lower(title) LIKE ?',  '%' + @searchkey.downcase + '%')
+  end
   end
 
   def new
