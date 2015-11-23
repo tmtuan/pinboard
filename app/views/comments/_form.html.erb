@@ -1,0 +1,16 @@
+<%= form_for [@pin, @pin.comments.build] do |f| %>
+    <p>
+      <%= f.label :name %>
+      <%= f.text_field :name, value: current_user.first_name + " " + current_user.last_name, disabled: true, class: "form-control" %>
+    </p>
+
+    <p>
+
+      <%= f.text_area :body, class: "form-control"%>
+    </p>
+    <br/>
+    <p>
+      <%= f.submit "Submit", class: "btn btn-success" %>
+    </p>
+
+<% end %>

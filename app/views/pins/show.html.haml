@@ -23,3 +23,15 @@
               - if current_user
                 = link_to "Edit", edit_pin_path, class: "btn btn-default"
                 = link_to "Delete", pin_path, method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
+        <!-- Blog Comments -->
+      #comments
+        %h2= " #{@pin.comments.count} Comments"
+
+        =if (@pin.comments.count > 0)
+          = render @pin.comments
+
+
+      <!-- Comments Form -->
+      .well
+        %h4 Leave a Comment
+        = render "comments/form"

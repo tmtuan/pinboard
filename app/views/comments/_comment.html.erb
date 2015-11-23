@@ -1,0 +1,19 @@
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="" alt="">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><%= comment.name %> <small><%= comment.created_at %></small></h4>
+
+    <h4><%= comment.body %></h4>
+  </div>
+  <% if current_user %>
+      <p><%= link_to 'Delete', [comment.pin, comment],
+                     method: :delete,
+                     class: "btn btn-primary btn-small",
+                     data: { confirm: 'Are you sure?' } %>
+
+      </p>
+  <% end %>
+
+</div>

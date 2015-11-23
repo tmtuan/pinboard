@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   resources :users
   resources :sessions
   resources :pins do
+    resources :comments
     member do
       put "like", to: "pins#upvote"
     end
