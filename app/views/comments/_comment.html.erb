@@ -3,7 +3,7 @@
     <img class="media-object" src="" alt="">
   </a>
   <div class="media-body">
-    <h4 class="media-heading"><%= comment.name %> <small><%= comment.created_at %></small></h4>
+    <h4 class="media-heading"><%= comment.name %> <small><%= time_ago_in_words(comment.created_at) %> ago</small></h4>
 
     <h4><%= comment.body %></h4>
   </div>
@@ -14,6 +14,7 @@
                      data: { confirm: 'Are you sure?' } %>
 
       </p>
+
   <% end %>
 
 </div>
